@@ -1,0 +1,47 @@
+[ CHANGELOG
+	Project Name
+		Crystal Server
+
+	Version:
+		0.1.0
+
+	Codename:
+		Ice Fenix
+
+	License:
+		GNU GPLv3
+
+	Forum:
+		http://vapus.net/
+]
+
+[ Legenda
+	A = Adicionado
+	M = Modificado
+	D = Deletado
+]
+
+[ Mudanças
+	[ 0.1.0
+		A = data/world/Evolutions.otbm
+
+		M = CServer.exe
+		M = Config.lua
+		M = data/creaturescripts/scripts/login.lua
+		M = data/lib/000-constant.lua
+		M = data/items - all fiels
+
+		D = data/world/forgotten.otbm
+	]
+]
+
+[ 0.1.0
+	Suporte para Tibia Client 8.71 (Tryller)
+	Adicionado Items (OTB) 8.70 (OpenTibia SVN)
+	Adicionado Items (XML) 8.70 (OpenTibia SVN, Tryller)
+	Adicionado Evolutions map (Xizaozu, Erimith, Tryller)
+	Novos tipos de menssagens MESSAGE_STATUS_CONSOLE_YEALOW, and MESSAGE_STATUS_CONSOLE_CYAN (Tryller)
+	Modificado tipos de falas do Account Manager (Tryller)
+	Adicionado sistema de montaria (Stian, Tryller)
+	Adicionado sistema de cooldown (The Forgotten Server)
+]

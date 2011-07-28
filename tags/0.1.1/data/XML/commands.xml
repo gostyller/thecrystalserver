@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<!-- Gods -->
+	<command cmd="/serverdiag" log="yes" access="5"/>
+	<command cmd="/premium" log="yes" access="5"/>
+	<command cmd="/pvp" log="yes" access="5"/>
+	<command cmd="/bless" log="yes" access="5"/>
+	<command cmd="/addon" log="yes" access="5"/>
+	<command cmd="/skill" log="yes" access="5"/>
+
+	<!-- Community Managers -->
+	<command cmd="/attr" log="yes" access="4"/>
+	<command cmd="/reload" log="yes" access="4"/>
+
+	<!-- Game Masters -->
+	<command cmd="/ghost" log="yes" access="3"/>
+	<command cmd="/check" log="yes" access="3"/>
+	<command cmd="/save" log="yes" access="3"/>
+
+	<!-- Tutors -->
+	<command cmd="/baninfo" log="yes" access="1"/>
+
+	<!-- Players -->
+	<command cmd="!buyhouse" log="no" access="0"/>
+	<command cmd="!sellhouse" log="no" access="0"/>
+	<command cmd="!createguild" log="no" access="0"/>
+	<command cmd="!joinguild" log="no" access="0"/>
+	<command cmd="!info" log="no" access="0"/>
+	<command cmd="!pvp" log="no" access="0"/>
+	<command cmd="!exp" log="no" access="0"/>
+	<command cmd="!mana" log="no" access="0"/>
+	<command cmd="!r" log="no" access="0"/>
+</commands>

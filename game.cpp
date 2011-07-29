@@ -92,8 +92,6 @@ Game::Game()
 
 Game::~Game()
 {
-	blacklist.clear();
-	whitelist.clear();
 	delete map;
 }
 
@@ -219,8 +217,6 @@ void Game::setGameState(GameState_t newState)
 				Raids::getInstance()->loadFromXml();
 				Raids::getInstance()->startup();
 				Quests::getInstance()->loadFromXml();
-
-				loadStatuslist();
 
 				loadGameState();
 				g_globalEvents->startup();
@@ -6164,9 +6160,4 @@ void Game::showHotkeyUseMessage(Player* player, Item* item)
 		stream << "Using one of " << count << " " << it.pluralName.c_str() << "...";
 
 	player->sendTextMessage(MSG_INFO_DESCR, stream.str().c_str());
-}
-
-bool Game::loadStatuslist()
-{
-	return true;
 }

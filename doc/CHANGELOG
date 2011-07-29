@@ -24,17 +24,19 @@
 
 ]
 
-[ 1.0.4
+[ 1.0.3
 	[ ENGLISH
-		Added protocol support 9.1 (TFS, CS)
+		Added some configs of verison 0.1.2 (Shynzo)
+		Added protocol support 9.1 (TFS, Shynzo)
 		Fixes in protocol 9.0 (TFS)
 		New outfits (TFS)
 		New monts (TFS)
 	]
 		
 	[ Portugês
-		Adicionado protocolo 9.1 (TFS, CS)
-		Correções emprotocolo 9.1 (TFS)
+		Adicionado algumas configs da versão 0.1.2 (Shynzo)
+		Adicionado protocolo 9.1 (TFS, Shynzo)
+		Correções em protocolo 9.1 (TFS)
 		Novas outfits (TFS)
 		Novas montarias (TFS)
 	]

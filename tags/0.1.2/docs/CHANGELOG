@@ -1,0 +1,147 @@
+[ CHANGELOG
+	Project Name
+		Crystal Server
+
+	Version:
+		0.1.2
+
+	Codename:
+		Ice Fenix
+
+	License:
+		GNU GPLv3
+
+	Forum:
+		http://vapus.net/
+]
+
+[ Legend
+	A = Added
+	M = Modified
+	D = Deleted
+]
+
+[ Files charges
+	[ 0.1.2
+		A = data/spells/scripts/attack/strong energy strike.lua
+		A = data/spells/scripts/attack/strong flame strike.lua
+		A = data/spells/scripts/attack/strong ice strike.lua
+		A = data/spells/scripts/attack/strong terra strike.lua
+		A = data/spells/scripts/attack/ultimate energy strike.lua
+		A = data/spells/scripts/attack/ultimate flame strike.lua
+		A = data/spells/scripts/attack/ultimate ice strike.lua
+		A = data/spells/scripts/attack/ultimate terra strike.lua
+		A = data/creaturescripts/scripts/channelevents.lua
+		A = data/talkactions/scripts/skill.lua
+		A = data/talkactions/scripts/giveitem.lua
+		A = data/talkactions/scripts/nextinfo.lua
+		A = data/talkactions/scripts/mounts.lua
+		A = data/talkactions/scripts/save.lua
+		A = data/actions/scripts/tools/sneaky stabber of eliteness.lua
+		A = data/actions/scripts/tools/squeezing gear of girlpower.lua
+		A = data/actions/scripts/tools/whacking driller of fate.lua
+		A = data/actions/scripts/other/icrease.lua
+		A = data/actions/scripts/other/decrease.lua
+
+		M = CServer.exe
+		M = Config.lua
+		M = data/creaturescripts/creaturescripts.xml
+		M = data/creaturescripts/scripts/login.lua
+		M = data/talkactions/scripts/multicheck.lua
+		M = data/talkactions/scripts/createitem.lua
+		M = data/talkactions/talkactions.xml
+		M = data/actions/actions.xml
+		M = data/lib/000-constant.lua
+		M = data/XML/channels.xml
+		M = data/spells/spells.xml
+		M = data/items/items.xml
+		M = data/items/items.otb
+		M = data/monster/
+		M = data/npc/
+
+		D = data/creaturescripts/scripts/guildmotd.lua
+		D = data/creaturescripts/scripts/stagesconfig.lua
+		D = data/creaturescripts/scripts/skillstagesadvance.lua
+		D = data/creaturescripts/scripts/skillstageslogin.lua
+		D = data/talkactions/scripts/ping.lua
+	]
+]
+
+[ 0.1.2
+	Updated all monster pack - use new (Tryller, Commedinhas)
+	Updated items.xml and items.otb (Tryller)
+	Server don't use more cryptopp and vahash encriptations (TFS, Tryller)
+	Rope are not ropping players (TFS)
+	Configurable mounts on login at config.lua (Tryller)
+	Added new channel English Chat (Tryller)
+	Added Squeezing tools (Tryller)
+	Added new lua function doAccountSave(accountId) (Tryller)
+	Added talkaction to player see information about experience and mana spent (Tryller)
+	Added talkaction to player see premium days info - !premium (Tryller)
+	Added talkaction to GOD give items to players (Mr.Ez)
+	Added talkaction to player buy a mount - !mount (Tryller)
+	Added increase and decrease actions from lua files (TFS)
+	Added fair fight (TFS, Tryller)
+	Aded SKULL_ORANGE (TFS, Tryller)
+	Added pvp blessing (TFS, Tryller)
+	Added some spells 8.7 (Tryller)
+	Added fightExhausted and healExhausted at config.lua (OpenTibia SVN, Tryller)
+	Added an extra save for the players, if they get in guild chat (Tryller)
+	Added command to buy aol and bp's (Tryller)
+	Added some monsters (Commedinhass, Tryller)
+	Psycal condition is now CONDITION_BLEED (TFS)
+	Fixed  database version (Tryller)
+	Fixed a bug in creating itens not stackables (Tryller)
+	Fixed a bug with server shutdown if creating items using /i command (Stian, Tryller)
+	Fixed a bug in house storage in hour of server save (TFS, Tryller)
+	Fixed new feature to stealth ring (TFS, Tryller)
+	Fixed an error with command /mc (TFS)
+	Fixed a problem after player getting level 534+ (Tryller)
+	Fixed some bugs in war system (TFS)
+	Fixed clone bug (TFS, Tryller)
+	Fixed spells combo (Tryller)
+	Fixed problem with /skill command (Tryller)
+	Fixed a bug with life crystal life crystal (Tryller)
+	Fixed npc talks - use new folder (TFS)
+	Fixed AOL bug if creating by GOD (Tryller)
+	Fixed all reported bugs (Tryller)
+	Deleted stages for magic and skills (Tryller)
+	Deleted talkaction !ping (Tryller)
+]
+
+[ 0.1.1
+	Deleted commands.xm and moved the commmands to talkactions (Tryller)
+	Fixed an error in connection if player logout (Tryller)
+	Possibility to enter in game using Tibia 8.70 or 8.71 (Tryller)
+	Fixed very critical bug with 100% cpu usage (3lite, Tryller)
+	Modified acc manager (Tryller)
+	Added new message type, changed cyan to teal (Tryller)
+	Fixed Wrath of Nature spell effect (Tryller)
+	Added skills and magic level per stage (Mr.Ez)
+	Possibility to compile server using Code::Blocks (Stian)	
+	Fixed some bugs in cooldowns (Comedinhas, Tryller)
+	New features to mounts at config.lua mountsOnlyPremium (Tryller)
+	New feature at config.lua useMultiClient (OpenTibia SVN, Tryller)
+	Corrected a small bug in houses system (Mr.Ez)
+	New lua functions doPlayerSetWalkthrough(cid, uid, walkthrough), isNpcName(name), isMonsterName(name), getHouseBedCount(houseid), getHouseDoorCount(houseid), getHouseTilesCount(houseid) (OpenTibia SVN, Tryller)
+	New lua functions doPlayerSendPing(cid), getPlayerPing(cid), getPlayerLastPing(cid), getPlayerLastPong(cid) (Mock, Tryller)
+	Corrected bug when player logout (Mr.Ez)
+	Added Ground Cache support (The Forgotten Server, Tryller)
+	Fixed a bug if player using Walk through (OpenTibia SVN, Tryller)	
+	Fixed Exeta Vis bug and another conjure bugs (TFS, Tryller)
+	Addded new  condition and new damage 8.7 - CONDITION_BLEEDING, COMBAT_BLEEDDAMAGE (Tryller)
+	Added achievements system (Mr.Ez)
+	Added limit of items in depot configurable in config.lua (Tryller)
+	Added useRandomExperienceColor in config.lua (Tryller)
+]
+
+[ 0.1.0
+	Support for Tibia Client 8.71 (Tryller)
+	Added Items (OTB) 8.70 (OpenTibia SVN)
+	Added Items (XML) 8.70 (OpenTibia SVN, Tryller)
+	Added Evolutions map (Xizaozu, Erimith, Tryller)
+	New message class types MESSAGE_STATUS_CONSOLE_YEALOW, and MESSAGE_STATUS_CONSOLE_CYAN (Tryller)
+	Modified talk types of the Account Manager (Tryller)
+	Added Mounts system (Stian, Tryller)
+	Added cooldown system (Stian)
+]

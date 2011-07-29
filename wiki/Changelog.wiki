@@ -1,5 +1,49 @@
 #summary Changelog of Crystal Server.
 
+
+= v0.1.2 =
+
+  * Updated all monster pack - use new (Tryller, Commedinhas)
+  * Updated items.xml and items.otb (Tryller)
+  * Server don't use more cryptopp and vahash encriptations (TFS, Tryller)
+  * Rope are not ropping players (TFS)
+  * Configurable mounts on login at config.lua (Tryller)
+  * Added new channel English Chat (Tryller)
+  * Added Squeezing tools (Tryller)
+  * Added new lua function doAccountSave(accountId) (Tryller)
+  * Added talkaction to player see information about experience and mana spent (Tryller)
+  * Added talkaction to player see premium days info - !premium (Tryller)
+  * Added talkaction to GOD give items to players (Mr.Ez)
+  * Added talkaction to player buy a mount - !mount (Tryller)
+  * Added increase and decrease actions from lua files (TFS)
+  * Added fair fight (TFS, Tryller)
+  * Aded SKULL_ORANGE (TFS, Tryller)
+  * Added pvp blessing (TFS, Tryller)
+  * Added some spells 8.7 (Tryller)
+  * Added fightExhausted and healExhausted at config.lua (OpenTibia SVN, Tryller)
+  * Added an extra save for the players, if they get in guild chat (Tryller)
+  * Added command to buy aol and bp's (Tryller)
+  * Added some monsters (Commedinhass, Tryller)
+  * Psycal condition is now CONDITION_BLEED (TFS)
+  * Fixed a bug in creating itens not stackables (Tryller)
+  * Fixed a bug with server shutdown if creating items using /i command (Stian, Tryller)
+  * Fixed a bug in house storage in hour of server save (TFS, Tryller)
+  * Fixed new feature to stealth ring (TFS, Tryller)
+  * Fixed an error with command /mc (TFS)
+  * Fixed a problem after player getting level 534+ (Tryller)
+  * Fixed some bugs in war system (TFS)
+  * Fixed clone bug (TFS, Tryller)
+  * Fixed spells combo (Tryller)
+  * Fixed problem with /skill command (Tryller)
+  * Fixed a bug with life crystal life crystal (Tryller)
+  * Fixed a bug with life crystal life (Tryller)
+  * Fixed npc talks - use new folder (TFS)
+  * Fixed AOL bug if creating by GOD (Tryller)
+  * Fixed all reported bugs (Tryller)
+  * Deleted stages for magic and skills (Tryller)
+  * Deleted talkaction !ping (Tryller)
+
+
 = v0.1.1 =
 
   * Deleted commands.xm and moved the commmands to talkactions (Tryller)

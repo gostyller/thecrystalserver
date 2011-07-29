@@ -161,6 +161,11 @@ bool ConfigManager::load()
 	m_confNumber[START_LEVEL] = getGlobalNumber("newPlayerLevel", 1);
 	m_confNumber[START_MAGICLEVEL] = getGlobalNumber("newPlayerMagicLevel", 0);
 	m_confBool[START_CHOOSEVOC] = getGlobalBool("newPlayerChooseVoc", false);
+	m_confNumber[MIN_MANAGER_PASSWORD] = getGlobalNumber("minPasswordLength", 6);
+	m_confNumber[MIN_ACCNAME] = getGlobalNumber("minAccountNameLength", 3);
+	m_confNumber[MAX_ACCNAME] = getGlobalNumber("maxAccountNameLength", 25);
+	m_confNumber[MIN_PLAYER_NAME] = getGlobalNumber("newCharacterMinNameLength", 3);
+	m_confNumber[MAX_PLAYER_NAME] = getGlobalNumber("newCharacterMaxNameLength", 25);
 	m_confNumber[HOUSE_PRICE] = getGlobalNumber("housePriceEachSquare", 1000);
 	m_confNumber[WHITE_SKULL_TIME] = getGlobalNumber("whiteSkullTime", 15 * 60 * 1000);
 	m_confNumber[HIGHSCORES_TOP] = getGlobalNumber("highscoreDisplayPlayers", 10);

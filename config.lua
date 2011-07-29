@@ -4,14 +4,19 @@
 	accountManager = true
 	namelockManager = true
 	newPlayerChooseVoc = true
-	newPlayerSpawnPosX = 857
-	newPlayerSpawnPosY = 964
+	newPlayerSpawnPosX = 1000
+	newPlayerSpawnPosY = 1000
 	newPlayerSpawnPosZ = 7
 	newPlayerTownId = 1
 	newPlayerLevel = 8
 	newPlayerMagicLevel = 0
 	generateAccountNumber = false
 	generateAccountSalt = false
+	minPasswordLength = 6
+	minAccountNameLength = 3
+	maxAccountNameLength = 25
+	newCharacterMinNameLength = 3
+	newCharacterMaxNameLength = 25
 
 	-- Unjustified kills
 	-- NOTE: *Banishment and *BlackSkull variables are >summed up<
@@ -171,7 +176,7 @@
 
 	-- Map
 	-- NOTE: storeTrash costs more memory, but will perform alot faster cleaning.
-	mapName = "tfs.otbm"
+	mapName = "Evolutions.otbm"
 	mapAuthor = ""
 	randomizeTiles = true
 	storeTrash = true

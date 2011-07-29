@@ -4490,9 +4490,9 @@ void Player::manageAccount(const std::string &text)
 			{
 				managerString = text;
 				trimString(managerString);
-				if(managerString.length() < 4)
-					msg << "Your name you want is too short, please select a longer name.";
-				else if(managerString.length() > 20)
+				if(managerString.length() < (uint16_t)g_config.getNumber(ConfigManager::MIN_PLAYER_NAME))
+					msg << "Your name you want is too short, please use more of " << g_config.getNumber(ConfigManager::MIN_PLAYER_NAME) << " length in yours name.";
+				else if(managerString.length() > (uint16_t)g_config.getNumber(ConfigManager::MAX_PLAYER_NAME))
 					msg << "The name you want is too long, please select a shorter name.";
 				else if(!isValidName(managerString))
 					msg << "That name seems to contain invalid symbols, please choose another name.";
@@ -4624,8 +4624,8 @@ void Player::manageAccount(const std::string &text)
 			{
 				std::string tmp = text;
 				trimString(tmp);
-				if(tmp.length() < 6)
-					msg << "That password is too short, at least 6 digits are required. Please select a longer password.";
+				if(tmp.length() < (uint16_t)g_config.getNumber(ConfigManager::MIN_MANAGER_PASSWORD))
+					msg << "That password is too short, at least " << g_config.getNumber(ConfigManager::MIN_MANAGER_PASSWORD) << " digits are required. Please select a longer password.";
 				else if(!isValidPassword(tmp))
 					msg << "Your password contains invalid characters... please tell me another one.";
 				else
@@ -4858,8 +4858,8 @@ void Player::manageAccount(const std::string &text)
 			{
 				std::string tmp = text;
 				trimString(tmp);
-				if(tmp.length() < 6)
-					msg << "That password is too short, at least 6 digits are required. Please select a longer password.";
+				if(tmp.length() < (uint16_t)g_config.getNumber(ConfigManager::MIN_MANAGER_PASSWORD))
+					msg << "That password is too short, at least " << g_config.getNumber(ConfigManager::MIN_MANAGER_PASSWORD) << " digits are required. Please select a longer password.";
 				else if(!isValidPassword(tmp))
 					msg << "Your password contains invalid characters... please tell me another one.";
 				else
@@ -4912,10 +4912,10 @@ void Player::manageAccount(const std::string &text)
 			{
 				std::string tmp = text;
 				trimString(tmp);
-				if(tmp.length() < 3)
-					msg << "That account name is too short, at least 3 digits are required. Please select a longer account name.";
-				else if(tmp.length() > 25)
-					msg << "That account name is too long, not more than 25 digits are required. Please select a shorter account name.";
+				if(tmp.length() < (uint16_t)g_config.getNumber(ConfigManager::MIN_ACCNAME))
+					msg << "That account name is too short, at least " << g_config.getNumber(ConfigManager::MIN_ACCNAME) << " digits are required. Please select a longer account name.";
+				else if(tmp.length() > (uint16_t)g_config.getNumber(ConfigManager::MAX_ACCNAME))
+					msg << "That account name is too long, not more than " << g_config.getNumber(ConfigManager::MAX_ACCNAME) << " digits are required. Please select a shorter account name.";
 				else if(!isValidAccountName(tmp))
 					msg << "Your account name contains invalid characters, please choose another one.";
 				else if(asLowerCaseString(tmp) == asLowerCaseString(managerString))

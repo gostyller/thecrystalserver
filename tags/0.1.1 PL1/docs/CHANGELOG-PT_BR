@@ -1,0 +1,68 @@
+[ CHANGELOG
+	Project Name
+		Crystal Server
+
+	Version:
+		0.1.1 PL1
+
+	Codename:
+		Ice Fenix
+
+	License:
+		GNU GPLv3
+
+	Forum:
+		http://vapus.net/
+]
+
+[ Legenda
+	A = Adicionado
+	M = Modificado
+	D = Deletado
+]
+
+[ Mudanças
+	[ 0.1.1 PL1
+		CServer.exe
+	]
+]
+
+[ 0.1.1 PL1
+	Corrigido erro ao cria items não Stackaveis (Tryller)
+]
+
+[ 0.1.1
+	Deletado commands.xml e movido os comandos para talkactions (Tryller)
+	Corrigido um erro na conexão quando o player deslogava (Tryller)
+	Corrigido um erro que causava alto uso da CPU (3lite, Tryller)
+	Possibilidade de poder entrar em versão 8.70 e 8.71 (Tryller)
+	Modificada a cor da fala do account manager (Tryller)
+	Corrigido efeito da magia Wrath of Nature (Tryller)
+	Adicionado skills e nivel mágico por estágio (Mr.Ez)
+	Possibilidade de compilar o server usando Code::Blocks (Stian)	
+	Corrigido alguns erros em cooldowns (Comedinhas, Tryller)
+	Nova feature para mounts no config.lua mountsOnlyPremium (Tryller)
+	Nova feature no config.lua useMultiClient (OpenTibia SVN, Tryller)
+	Corrigido um erro nas casas (Mr.Ez)
+	Novas funções lua doPlayerSetWalkthrough(cid, uid, walkthrough), isNpcName(name), isMonsterName(name), getHouseBedCount(houseid), getHouseDoorCount(houseid), getHouseTilesCount(houseid) (OpenTibia SVN, Tryller)
+	Novas funções lua doPlayerSendPing(cid), getPlayerPing(cid), getPlayerLastPing(cid), getPlayerLastPong(cid) (Mock, Tryller)
+	Corrigido um erro quando o player deslogava (Mr.Ez)
+	Adicionado Ground Cache suporte (Elf, Tryller)
+	Corrigido bug do Exeta Vis e outra magias de conjurar (TFS, Tryller)
+	Corrigido erro de quando player usava Walk through (OpenTibia SVN, Tryller)
+	Adicionada a nova condition e novo damage 8.7 - CONDITION_BLEEDING, COMBAT_BLEEDDAMAGE (Tryller)
+	Adicionado sistema de achievements (Mr.Ez)
+	Adicionado limit de items no depot configuravel no config.lua (Tryller)
+	Adiciona useRandomExperienceColor no config.lua (Tryller)
+]
+
+[ 0.1.0
+	Suporte para Tibia Client 8.71 (Tryller)
+	Adicionado Items (OTB) 8.70 (OpenTibia SVN)
+	Adicionado Items (XML) 8.70 (OpenTibia SVN, Tryller)
+	Adicionado Evolutions map (Xizaozu, Erimith, Tryller)
+	Novos tipos de menssagens MESSAGE_STATUS_CONSOLE_YEALOW, e MESSAGE_STATUS_CONSOLE_CYAN (Tryller)
+	Modificado tipos de falas do Account Manager (Tryller)
+	Adicionado sistema de montaria (Stian, Tryller)
+	Adicionado sistema de cooldown (The Forgotten Server)
+]

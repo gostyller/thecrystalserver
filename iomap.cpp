@@ -222,10 +222,6 @@ bool IOMap::loadMap(Map* map, const std::string& identifier)
 		}
 	}
 
-	std::clog << ":: Map descriptions: " << std::endl;
-	for(StringVec::iterator it = map->descriptions.begin(); it != map->descriptions.end(); ++it)
-		std::clog << "\"" << (*it) << "\"" << std::endl;
-
 #ifdef __GROUND_CACHE__
 	typedef std::map<uint16_t, std::pair<Item*, int32_t> > CacheMap;
 	CacheMap groundCache;

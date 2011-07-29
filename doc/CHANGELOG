@@ -1,0 +1,41 @@
+[ CHANGELOG
+	Project Name
+		Crsytal Server
+
+	Version
+		0.1.3
+
+	License
+		GNU GPLv3
+
+	Forum
+		http://tibiaking.com/
+]
+
+[ Legend
+	OT = OpenTibia SVN Team
+	TFS = Tge Forgotten Server Team
+]
+
+[ File changes:
+	D = Deleted,
+	M = Modified,
+	A = Added.
+
+]
+
+[ 1.0.4
+	[ ENGLISH
+		Added protocol support 9.1 (TFS, CS)
+		Fixes in protocol 9.0 (TFS)
+		New outfits (TFS)
+		New monts (TFS)
+	]
+		
+	[ Portugês
+		Adicionado protocolo 9.1 (TFS, CS)
+		Correções emprotocolo 9.1 (TFS)
+		Novas outfits (TFS)
+		Novas montarias (TFS)
+	]
+]

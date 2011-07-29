@@ -1640,21 +1640,21 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [VersionInfo]
-Major=1
-Minor=0
-Release=5
+Major=0
+Minor=1
+Release=3
 Build=0
 LanguageID=1033
 CharsetID=1252
 CompanyName=http://tibiaking.com/
-FileVersion=1.0.5
+FileVersion=0.1.3
 FileDescription=Crystal Server
 InternalName=
 LegalCopyright=
 LegalTrademarks=
 OriginalFilename=OTServ.exe
 ProductName=Crystal Server
-ProductVersion=1.0.5
+ProductVersion=0.1.3
 AutoIncBuildNr=0
 
 [Unit38]

@@ -4372,8 +4372,9 @@ bool Game::combatChangeHealth(CombatType_t combatType, Creature* attacker, Creat
 		if(deny)
 			return false;
 
+		int32_t oldHealth = target->getHealth();
 		target->gainHealth(attacker, healthChange);
-		if(g_config.getBool(ConfigManager::SHOW_HEALING_DAMAGE) && !target->isGhost() &&
+		if(oldHealth != target->getHealth() && g_config.getBool(ConfigManager::SHOW_HEALING_DAMAGE) && !target->isGhost() &&
 			(g_config.getBool(ConfigManager::SHOW_HEALING_DAMAGE_MONSTER) || !target->getMonster()))
 		{
 			const SpectatorVec& list = getSpectators(targetPos);
@@ -4390,9 +4391,10 @@ bool Game::combatChangeHealth(CombatType_t combatType, Creature* attacker, Creat
 					textList.push_back(*it);
 			}
 
-			std::stringstream ss;
+			healthChange = (target->getHealth() - oldHealth);
 			std::string plural = (healthChange != 1 ? "s." : ".");
 
+			std::stringstream ss;
 			MessageDetails* details = new MessageDetails(healthChange, COLOR_MAYABLUE);
 			if(!textList.empty())
 			{
@@ -4417,9 +4419,9 @@ bool Game::combatChangeHealth(CombatType_t combatType, Creature* attacker, Creat
 			if(attacker && (player = attacker->getPlayer()))
 			{
 				if(attacker != target)
-					ss << "You heal " << target->getNameDescription() << " for " << healthChange << " hitpoint" << plural;
+					ss << "You healed " << target->getNameDescription() << " for " << healthChange << " hitpoint" << plural;
 				else
-					ss << "You heal yourself for " << healthChange << " hitpoint" << plural;
+					ss << "You healed yourself for " << healthChange << " hitpoint" << plural;
 
 				player->sendStatsMessage(MSG_HEALED, ss.str(), targetPos, details);
 				ss.str("");

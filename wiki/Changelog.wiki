@@ -3,8 +3,11 @@
 
 = v0.1.3 =
 
+  * Re-crated project (Tryller)
   * Added some configs of verison 0.1.2 (Shynzo)
   * Added protocol support 9.1 (TFS, Shynzo)
+  * Added some spells 8.7 (TFS, Shynzo)
+  * Added some monster (TFS, Tryller)
   * Fixes in protocol 9.0 (TFS)
   * New outfits (TFS)
   * New monts (TFS)

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#The forgotten server run script
+#Crystal server run script
 
-echo "The forgotten server run script"
+echo "Crystal server run script"
 VERSION="1.00a"
 
 case "$1" in
@@ -10,16 +10,16 @@ case "$1" in
       echo >&2 "Usage $0 <options>"
       echo >&2 " Where options are:"
       echo >&2 " -h|--help|start|stop|restart|kill|--version";
-      if [ -f theforgottenserver ];
+      if [ -f crystalserver ];
       then
-        ./theforgottenserver --help
+        ./crystalserver --help
       fi
       ;;
    start|s)
-     if [ -f theforgottenserver ];
+     if [ -f crystalserver ];
      then
         echo >&2 "Running The forgotten server v$VERSION"
-        ./theforgottenserver
+        ./crystalserver
         echo >&2 "Exited with code $?"
       else
          echo >&2 "Could not start The forgotten server"
@@ -27,17 +27,17 @@ case "$1" in
      ;;
    restart)
      echo "Restarting..."
-     killall -9 theforgottenserver
-     if [ -f theforgottenserver ];
+     killall -9 crystalserver
+     if [ -f crystalserver ];
      then
-        ./theforgottenserver
+        ./crystalserver
 		echo >&2 "Exited with code $?"
      else
         echo >&2 "Failed"
      fi
      ;;
    stop|kill)
-     killall -9 theforgottenserver
+     killall -9 crystalserver
      ;;
    --version)
      echo "v$VERSION"

@@ -134,7 +134,7 @@ bool argumentsHandler(StringVec args)
 			std::clog << ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::" << std::endl;
 			std::clog << ":: Crystal Server - Version: 0.1.3 ::::::::::::::::::::::::::::::::::::::::::::" << std::endl;
 			std::clog << ":: A server developed by Shynzo, Tryller, Toty ::::::::::::::::::::::::::::::::" << std::endl;
-			std::clog << ":: For support visit: http://thecrystal.webnode.pt/ :::::::::::::::::::::::::::" << std::endl;
+			std::clog << ":: For support visit: http://crystal.extremeot.net/ :::::::::::::::::::::::::::" << std::endl;
 			std::clog << ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::" << std::endl;
 			return false;
 		}
@@ -353,7 +353,7 @@ void otserv(StringVec, ServiceManager* services)
 	std::clog << "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::" << std::endl;
 	std::clog << ":: Crystal Server - Version: 0.1.3 :::::::::::::::::::::::::::::" << std::endl;
 	std::clog << ":: A server developed by Shynzo, Tryller, Toty :::::::::::::::::" << std::endl;
-	std::clog << ":: For support visit: http://tibiaking.com/ ::::::::::::::::::::" << std::endl;
+	std::clog << ":: For support visit: http://crystal.extremeot.net/ ::::::::::::" << std::endl;
 	std::clog << "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::" << std::endl;
 	
 	std::stringstream ss;

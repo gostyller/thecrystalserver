@@ -119,8 +119,8 @@ typedef std::list<Position> Trash;
 typedef std::map<int32_t, float> StageList;
 
 #define EVENT_LIGHTINTERVAL 10000
-#define EVENT_DECAYINTERVAL 1000
-#define EVENT_DECAYBUCKETS 16
+#define EVENT_DECAYINTERVAL 200
+#define EVENT_DECAYBUCKETS 4
 #define STATE_DELAY 1000
 #ifdef __WAR_SYSTEM__
 #define EVENT_WARSINTERVAL 900000

@@ -534,7 +534,7 @@ void otserv(StringVec, ServiceManager* services)
 		ERR_load_crypto_strings();
 		std::stringstream s;
 
-		s << std::endl << "> OpenSSL failed - " << ERR_error_string(ERR_get_error(), NULL);
+		s << std::endl << ":: OpenSSL failed - " << ERR_error_string(ERR_get_error(), NULL);
 		startupErrorMessage(s.str());
 	}
 

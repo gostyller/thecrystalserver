@@ -196,6 +196,7 @@
 	-- Startup
 	startupDatabaseOptimization = true
 	updatePremiumStateAtStartup = true
+	skipItemsVersionCheck = false
 
 	-- Spells
 	formulaLevel = 5.0

@@ -965,7 +965,10 @@ ReturnValue Game::placeSummon(Creature* creature, const std::string& name)
 	// Place the monster
 	creature->addSummon(monster);
 	if(placeCreature(monster, creature->getPosition(), true))
+	{
+		addMagicEffect(monster->getPosition(), MAGIC_EFFECT_TELEPORT);
 		return RET_NOERROR;
+	}
 
 	creature->removeSummon(monster);
 	return RET_NOTENOUGHROOM;

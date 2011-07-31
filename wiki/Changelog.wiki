@@ -1,5 +1,11 @@
 #summary Changelog of Crystal Server.
 
+= v0.1.4 =
+
+  * Fixed/Updated movements (Also added name tags) (TFS, Toty)
+  * Added junglemaw moveevent (TFS)
+  * Fixed some issues with spells (TFS, Tryller)
+  * Updated weapons (TFS, Toty)
 
 = v0.1.3 =
 

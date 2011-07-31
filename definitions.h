@@ -23,7 +23,7 @@
 #define CLIENT_VERSION_STRING "Only clients with protocol 9.10 allowed!"
 
 #define SOFTWARE_NAME "Crystal Server"
-#define SOFTWARE_VERSION "0.1.3"
+#define SOFTWARE_VERSION "0.1.4"
 #define SOFTWARE_PROTOCOL "9.10"
 
 #define VERSION_CHECK "0"

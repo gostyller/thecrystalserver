@@ -1240,6 +1240,6 @@ bool TalkAction::software(Creature* creature, const std::string&, const std::str
 	if(!player)
 		return false;
 
-	player->sendTextMessage(MSG_STATUS_CONSOLE_BLUE, "Crystal Server - Version 0.1.3.");
+	player->sendTextMessage(MSG_STATUS_CONSOLE_BLUE, "Crystal Server - Version 0.1.4.");
 	return true;
 }

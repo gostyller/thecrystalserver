@@ -21,8 +21,33 @@
 	D = Deleted,
 	M = Modified,
 	A = Added.
+	
+	[ 0.1.4
+		A = data/movements/scripts/junglemawlua
 
+		M = data/movements/movements.xml
+		M = data/spells/spells.xml
+		M = weapons/weapons.xml
+	]
 ]
+
+[ 0.1.4
+
+	[ ENGLISH
+		Fixed/Updated movements (Also added name tags) (TFS, Toty)
+		Added junglemaw moveevent (TFS)
+		Fixed some issues with spells (TFS, Tryller)
+		Updated weapons (TFS, Toty)
+	]
+		
+	[ Portugês
+		Atualizado movments (Nomes adicionados e coreções) (TFS, Toty)
+		Adicionado junglemaw moveevent (TFS)
+		Corrigidos erros em spells (TFS, Tryller)
+		Atualizado weapons.xml (TFS, Toty)
+	]
+]
+
 
 [ 1.0.3
 	[ ENGLISH

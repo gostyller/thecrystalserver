@@ -29,25 +29,30 @@
 		M = data/spells/spells.xml
 		M = data/weapons/weapons.xml
 		M = data/itmes/itmes.xml
+		M = data/itmes/itmes.otb
 	]
 ]
 
 [ 0.1.4
 
 	[ ENGLISH
-		Fixed/Updated movements (Also added name tags) (TFS, Toty)
-		Added junglemaw moveevent (TFS)
+		Fixed/Updated movements. (Also added name tags) (TFS, Toty)
+		Added junglemaw moveevent. (TFS)
 		Fixed some issues with spells (TFS, Tryller)
-		Updated weapons (TFS, Toty)
-		Updated items.xml (TFS, Shynzo)
+		Updated weapons. (TFS, Toty)
+		Updated items.xml. (TFS, Shynzo)
+		Fixed a bug with vial, blue bottle, jug and waterskin. (TFS)
+		Corrected cheese and scarab cheese client id and stackable attribute. (TFS)
 	]
 		
 	[ Portugês
-		Atualizado movments (Nomes adicionados e coreções) (TFS, Toty)
-		Adicionado junglemaw moveevent (TFS)
-		Corrigidos erros em spells (TFS, Tryller)
-		Atualizado weapons.xml (TFS, Toty)
-		Atualizado itmes.xml (TFS, Shynzo)
+		Atualizado movments. (Nomes adicionados e coreções) (TFS, Toty)
+		Adicionado junglemaw moveevent. (TFS)
+		Corrigidos erros em spells. (TFS, Tryller)
+		Atualizado weapons.xml. (TFS, Toty)
+		Atualizado itmes.xml. (TFS, Shynzo)
+		Corrigido erro com vial, blue bottle, jug e waterskin. (TFS)
+		Corrigido cheese e scarab cheese client id e stackable attribute. (TFS)
 	]
 ]
 

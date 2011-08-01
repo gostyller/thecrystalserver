@@ -2,10 +2,15 @@
 
 = v0.1.4 =
 
-  * Fixed/Updated movements (Also added name tags) (TFS, Toty)
-  * Added junglemaw moveevent (TFS)
+  * Fixed/Updated movements. (Also added name tags) (TFS, Toty)
+  * Added junglemaw moveevent. (TFS)
   * Fixed some issues with spells (TFS, Tryller)
-  * Updated weapons (TFS, Toty)
+  * Updated weapons. (TFS, Toty)
+  * Updated items.xml. (TFS, Shynzo)
+  * Fixed a bug with vial, blue bottle, jug and waterskin. (TFS)
+  * Corrected cheese and scarab cheese client id and stackable attribute. (TFS)
+  * Fix some item corpse types and decay times. (TFS)
+  * Fixed bug with walkback, making quest doors bug. (TFS)
 
 = v0.1.3 =
 

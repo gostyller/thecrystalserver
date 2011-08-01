@@ -27,7 +27,8 @@
 
 		M = data/movements/movements.xml
 		M = data/spells/spells.xml
-		M = weapons/weapons.xml
+		M = data/weapons/weapons.xml
+		M = data/itmes/itmes.xml
 	]
 ]
 
@@ -38,6 +39,7 @@
 		Added junglemaw moveevent (TFS)
 		Fixed some issues with spells (TFS, Tryller)
 		Updated weapons (TFS, Toty)
+		Updated items.xml (TFS, Shynzo)
 	]
 		
 	[ Portugês
@@ -45,6 +47,7 @@
 		Adicionado junglemaw moveevent (TFS)
 		Corrigidos erros em spells (TFS, Tryller)
 		Atualizado weapons.xml (TFS, Toty)
+		Atualizado itmes.xml (TFS, Shynzo)
 	]
 ]
 

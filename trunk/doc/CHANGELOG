@@ -30,6 +30,7 @@
 		M = data/weapons/weapons.xml
 		M = data/itmes/itmes.xml
 		M = data/itmes/itmes.otb
+		M = data/moveevents/scripts/walckback.lua
 	]
 ]
 
@@ -43,6 +44,9 @@
 		Updated items.xml. (TFS, Shynzo)
 		Fixed a bug with vial, blue bottle, jug and waterskin. (TFS)
 		Corrected cheese and scarab cheese client id and stackable attribute. (TFS)
+		Fix some item corpse types and decay times. (TFS)
+		Fixed bug with walkback, making quest doors bug. (TFS)
+	
 	]
 		
 	[ Portugês
@@ -53,6 +57,8 @@
 		Atualizado itmes.xml. (TFS, Shynzo)
 		Corrigido erro com vial, blue bottle, jug e waterskin. (TFS)
 		Corrigido cheese e scarab cheese client id e stackable attribute. (TFS)
+		Corrigido item corpse e decays (TFS)
+		Corrigido walckback.lua. (TFS)
 	]
 ]
 

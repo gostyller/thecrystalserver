@@ -31,6 +31,7 @@
 		M = data/itmes/itmes.xml
 		M = data/itmes/itmes.otb
 		M = data/moveevents/scripts/walckback.lua
+		M = data/monster
 	]
 ]
 
@@ -42,6 +43,7 @@
 		Fixed some issues with spells (TFS, Tryller)
 		Updated weapons. (TFS, Toty)
 		Updated items.xml. (TFS, Shynzo)
+		Updated some monsters and loots (TFS, Toty, MartyX)
 		Fixed a bug with vial, blue bottle, jug and waterskin. (TFS)
 		Corrected cheese and scarab cheese client id and stackable attribute. (TFS)
 		Fixed some item corpse types and decay times. (TFS)
@@ -56,6 +58,7 @@
 		Corrigidos erros em spells. (TFS, Tryller)
 		Atualizado weapons.xml. (TFS, Toty)
 		Atualizado itmes.xml. (TFS, Shynzo)
+		Atualizado monstros e loots (TFS, Toty, MartyX)
 		Corrigido erro com vial, blue bottle, jug e waterskin. (TFS)
 		Corrigido cheese e scarab cheese client id e stackable attribute. (TFS)
 		Corrigido item corpse e decays (TFS)

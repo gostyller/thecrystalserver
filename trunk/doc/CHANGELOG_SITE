@@ -8,6 +8,7 @@ Fixed a bug with vial, blue bottle, jug and waterskin. (TFS)
 Corrected cheese and scarab cheese client id and stackable attribute. (TFS)
 Fix some item corpse types and decay times. (TFS)
 Fixed bug with walkback, making quest doors bug. (TFS)
+Silver brooches and life crystals are now stackable. (TFS, Tryller)
 ===============================================
 v0.1.3
 Re-created project

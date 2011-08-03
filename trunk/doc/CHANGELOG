@@ -32,6 +32,7 @@
 		M = data/itmes/itmes.otb
 		M = data/moveevents/scripts/walckback.lua
 		M = data/monster
+		M = data/npc/lib
 	]
 ]
 
@@ -48,6 +49,7 @@
 		Corrected cheese and scarab cheese client id and stackable attribute. (TFS)
 		Fixed some item corpse types and decay times. (TFS)
 		Fixed bug with walkback, making quest doors bug. (TFS)
+		Fixed a bug with npcs (TFS, Toty)
 		Silver brooches and life crystals are now stackable. (TFS, Tryller)
 	
 	]

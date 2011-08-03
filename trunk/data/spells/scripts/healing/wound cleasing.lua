@@ -6,5 +6,6 @@ setCombatParam(combat, COMBAT_PARAM_DISPEL, CONDITION_PARALYZE)
 setHealingFormula(combat, COMBAT_FORMULA_LEVELMAGIC, 5, 5, 11, 15)
 
 function onCastSpell(cid, var)
-	return doCombat(cid, combat, var)
+        return doCombat(cid, combat, var)
 end
+  

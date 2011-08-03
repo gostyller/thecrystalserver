@@ -12,6 +12,7 @@
   * Corrected cheese and scarab cheese client id and stackable attribute. (TFS)
   * Fixed some item corpse types and decay times. (TFS)
   * Fixed bug with walkback, making quest doors bug. (TFS)
+  * Fixed a bug with npc (TFS, Toty)
   * Silver brooches and life crystals are now stackable. (TFS, Tryller)
 
 = v0.1.3 =

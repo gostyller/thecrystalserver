@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <items>
 	<!-- README:
 		We really appreciate if someone could help us
@@ -17004,7 +17004,7 @@
 		<attribute key="description" value="This one would be quite healthy if it wasn't for all the melted cheese on top." />
 		<attribute key="weight" value="1100" />
 	</item>
-	<item id="9998" article="a" name="filled jalapeño peppers">
+	<item id="9998" article="a" name="filled jalapeno peppers">
 		<attribute key="description" value="The creamy cheese makes a great combination with spicy peppers." />
 		<attribute key="weight" value="650" />
 	</item>
@@ -17046,7 +17046,7 @@
 		<attribute key="fluidSource" value="slime" />
 	</item>
 	<item id="10006" article="a" name="Jean Pierre's cookbook I">
-		<attribute key="description" value="It was given to you by the djinn maître and contains the collection of recipes you cooked." />
+		<attribute key="description" value="It was given to you by the djinn mantre and contains the collection of recipes you cooked." />
 		<attribute key="weight" value="1500" />
 	</item>
 	<item id="10007" article="a" name="dead mutated human">
@@ -20569,51 +20569,51 @@
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="13525" />
 		<attribute key="duration" value="10" />
-		<attribute key="corpseType" value="vemon" />
+		<attribute key="corpseType" value="venom" />
 		<attribute key="fluidSource" value="slime" />
 	</item>
 	<item id="13525" article="a" name="dead insectoid scout">
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="13526" />
 		<attribute key="duration" value="900" />
-		<attribute key="corpseType" value="vemon" />
+		<attribute key="corpseType" value="venom" />
 		<attribute key="fluidSource" value="slime" />
 	</item>
 	<item id="13526" article="a" name="dead insectoid scout">
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="13527" />
 		<attribute key="duration" value="600" />
-		<attribute key="corpseType" value="vemon" />
+		<attribute key="corpseType" value="venom" />
 	</item>
 	<item id="13527" article="a" name="dead insectoid scout">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
-		<attribute key="corpseType" value="vemon" />
+		<attribute key="corpseType" value="venom" />
 	</item>
 	<item id="13515" article="a" name="dead slug" editorsuffix=" (Unmoveable)">
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="13522" />
 		<attribute key="duration" value="10" />
-		<attribute key="corpseType" value="vemon" />
+		<attribute key="corpseType" value="venom" />
 		<attribute key="fluidSource" value="slime" />
 	</item>
 	<item id="13522" article="a" name="dead slug">
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="13523" />
 		<attribute key="duration" value="900" />
-		<attribute key="corpseType" value="vemon" />
+		<attribute key="corpseType" value="venom" />
 		<attribute key="fluidSource" value="slime" />
 	</item>
 	<item id="13523" article="a" name="dead slug">
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="13524" />
 		<attribute key="duration" value="600" />
-		<attribute key="corpseType" value="vemon" />
+		<attribute key="corpseType" value="venom" />
 	</item>
 	<item id="13524" article="a" name="dead slug">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
-		<attribute key="corpseType" value="vemon" />
+		<attribute key="corpseType" value="venom" />
 	</item>
 	<item id="13859" article="a" name="dead thornfire wolf" editorsuffix=" (Unmoveable)">
 		<attribute key="containerSize" value="10" />

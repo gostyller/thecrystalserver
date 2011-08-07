@@ -24,6 +24,7 @@
 	
 	[ 0.1.4
 		A = data/movements/scripts/junglemawlua
+		A = data/actions/scripts/other/ceremonialankh.lua
 
 		M = data/movements/movements.xml
 		M = data/spells/spells.xml
@@ -33,34 +34,42 @@
 		M = data/moveevents/scripts/walckback.lua
 		M = data/monster
 		M = data/npc/lib
+		M = data/actions/lib/actions.lua
+		M = config.lua
 	]
 ]
 
 [ 0.1.4
 
 	[ ENGLISH
-		Fixed/Updated movements. (Also added name tags) (TFS, Toty)
 		Added junglemaw moveevent. (TFS)
-		Fixed some issues with spells (TFS, Tryller)
+		Added missing foods. (TFS)
+		Added ceremonial ankh. (TFS)
+		Now able to configure whether or not you can only rope players on holes.  (canOnlyRopePlayers) (TFS)
 		Updated weapons. (TFS, Toty)
 		Updated items.xml. (TFS, Shynzo)
 		Updated some monsters and loots (TFS, Toty, MartyX)
 		Fixed a bug with vial, blue bottle, jug and waterskin. (TFS)
-		Corrected cheese and scarab cheese client id and stackable attribute. (TFS)
+		Fixed cheese and scarab cheese client id and stackable attribute. (TFS)
 		Fixed some item corpse types and decay times. (TFS)
 		Fixed bug with walkback, making quest doors bug. (TFS)
+		Fixed/Updated movements. (Also added name tags) (TFS, Toty)
 		Fixed a bug with npcs (TFS, Toty)
+		Fixed some issues with spells (TFS, Tryller)
 		Silver brooches and life crystals are now stackable. (TFS, Tryller)
 	
 	]
 		
 	[ Portugês
-		Atualizado movments. (Nomes adicionados e coreções) (TFS, Toty)
 		Adicionado junglemaw moveevent. (TFS)
-		Corrigidos erros em spells. (TFS, Tryller)
+		Adicionado os foods que faltavam (TFS)
+		Adicionado ceremonial ankh. (TFS)
+		Adicionado nova config pra ver s epode ropar players ou não (canOnlyRopePlayers) (TFS)
 		Atualizado weapons.xml. (TFS, Toty)
 		Atualizado itmes.xml. (TFS, Shynzo)
 		Atualizado monstros e loots (TFS, Toty, MartyX)
+		Atualizado movments. (Nomes adicionados e coreções) (TFS, Toty)
+		Corrigidos erros em spells. (TFS, Tryller)
 		Corrigido erro com vial, blue bottle, jug e waterskin. (TFS)
 		Corrigido cheese e scarab cheese client id e stackable attribute. (TFS)
 		Corrigido item corpse e decays (TFS)

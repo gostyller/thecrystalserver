@@ -173,7 +173,6 @@
 	timeBetweenExActions = 1000
 	hotkeyAimbotEnabled = true
 	tibiaClassicSlots = true
-	canOnlyRopePlayers = true
 
 	-- Map
 	-- NOTE: storeTrash costs more memory, but will perform alot faster cleaning.

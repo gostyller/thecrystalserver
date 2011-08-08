@@ -25,6 +25,12 @@
 	[ 0.1.4
 		A = data/movements/scripts/junglemawlua
 		A = data/actions/scripts/other/ceremonialankh.lua
+		A = data/actions/scripts/foods/coconut_shrimp_bake.lua
+		A = data/actions/scripts/foods/demonic_candy_ball.lua
+		A = data/actions/scripts/foods/demonic_candy_ball.lua
+		A = data/actions/scripts/foods/pot_of_blackjack.lua	
+		A = data/actions/scripts/foods/sweet_mangonaise_elixir.lua
+		A = data/actions/scripts/other/destroy.lua
 
 		M = data/movements/movements.xml
 		M = data/spells/spells.xml
@@ -35,6 +41,11 @@
 		M = data/monster
 		M = data/npc/lib
 		M = data/actions/lib/actions.lua
+		M = data/actions/actions.xml
+		M = data/actions/scripts/foods/food.lua
+		M = data/lib/000-constant.lua
+		M = data/movements/scripts/walkback.lua
+		M = data/movements/scripts/drown.lua
 		M = config.lua
 	]
 ]
@@ -43,11 +54,16 @@
 
 	[ ENGLISH
 		Added junglemaw moveevent. (TFS)
+		Added isSummon(cid) function (TFS)
+		Added 4 new 'special foods': coconut shrimp bake, demonic candy ball, sweet mangonaise elixir, and pot of blackjack (coconut shrimp bake needs to be tested fully). (TFS)
 		Added missing foods. (TFS)
+		Added new condition (CONDITION_OTHER). (TFS)
+		Added new destroy.lua script for destroying boxes, crates, etc like real tibia. (TFS)
 		Added ceremonial ankh. (TFS)
 		Now able to configure whether or not you can only rope players on holes.  (canOnlyRopePlayers) (TFS)
 		Updated weapons. (TFS, Toty)
 		Updated items.xml. (TFS, Shynzo)
+		Updated walkback.lua (TFS, Tryller)
 		Updated some monsters and loots (TFS, Toty, MartyX)
 		Fixed a bug with vial, blue bottle, jug and waterskin. (TFS)
 		Fixed cheese and scarab cheese client id and stackable attribute. (TFS)
@@ -56,24 +72,31 @@
 		Fixed/Updated movements. (Also added name tags) (TFS, Toty)
 		Fixed a bug with npcs (TFS, Toty)
 		Fixed some issues with spells (TFS, Tryller)
+		Fixed drown.lua (TFS)
 		Silver brooches and life crystals are now stackable. (TFS, Tryller)
 	
 	]
 		
 	[ Portugês
 		Adicionado junglemaw moveevent. (TFS)
+		Adicionado função isSummon(cid) (TFS)
+		Adicionado nova condition (CONDITION_OTHER).
+		Adicionado 4 novos 'special foods': coconut shrimp bake, demonic candy ball, sweet mangonaise elixir, e pot of blackjack (coconut shrimp orecisa ser testado). (TFS)
 		Adicionado os foods que faltavam (TFS)
+		Adicionado destroy action para destruir items como: boxes, crates, etc igual tibia global. (TFS)
 		Adicionado ceremonial ankh. (TFS)
 		Adicionado nova config pra ver s epode ropar players ou não (canOnlyRopePlayers) (TFS)
 		Atualizado weapons.xml. (TFS, Toty)
 		Atualizado itmes.xml. (TFS, Shynzo)
 		Atualizado monstros e loots (TFS, Toty, MartyX)
+		Atualizado walkback.lua (TFS, Tryller)
 		Atualizado movments. (Nomes adicionados e coreções) (TFS, Toty)
 		Corrigidos erros em spells. (TFS, Tryller)
 		Corrigido erro com vial, blue bottle, jug e waterskin. (TFS)
 		Corrigido cheese e scarab cheese client id e stackable attribute. (TFS)
 		Corrigido item corpse e decays (TFS)
 		Corrigido walckback.lua. (TFS)
+		Corrigido drown.lua (TFS)
 		Silver brooches e life crystals são agora stackable.
 	]
 ]

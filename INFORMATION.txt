@@ -1,0 +1,2 @@
+Moved repository from VAPus
+http://vapus.net/svn/listing.php?repname=Crystal+Server
